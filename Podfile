@@ -6,5 +6,7 @@ target 'TestMapBox' do
   use_frameworks!
 
   # Pods for TestMapBox
-
+  pod 'MapboxNavigation'
+  pod 'MapboxCoreNavigation'
+  pod 'MapboxDirections'
 end

@@ -1,3 +1,65 @@
-PODFILE CHECKSUM: 396830eca6290dced4616faa566d97ffbb8d00b0
+PODS:
+  - MapboxCommon (23.11.0)
+  - MapboxCoreMaps (10.19.1):
+    - MapboxCommon (~> 23.11)
+  - MapboxCoreNavigation (2.18.4):
+    - MapboxDirections (~> 2.12)
+    - MapboxNavigationNative (< 205.0.0, >= 204.0.1)
+  - MapboxDirections (2.14.0):
+    - Polyline (~> 5.0)
+    - Turf (~> 2.8.0)
+  - MapboxMaps (10.19.0):
+    - MapboxCommon (= 23.11.0)
+    - MapboxCoreMaps (= 10.19.1)
+    - MapboxMobileEvents (= 2.0.0)
+    - Turf (= 2.8.0)
+  - MapboxMobileEvents (2.0.0)
+  - MapboxNavigation (2.18.4):
+    - MapboxCoreNavigation (= 2.18.4)
+    - MapboxMaps (~> 10.17)
+    - MapboxSpeech (~> 2.0)
+    - Solar-dev (~> 3.0)
+  - MapboxNavigationNative (204.1.0):
+    - MapboxCommon (~> 23.9)
+  - MapboxSpeech (2.1.1)
+  - Polyline (5.1.0)
+  - Solar-dev (3.0.1)
+  - Turf (2.8.0)
+
+DEPENDENCIES:
+  - MapboxCoreNavigation
+  - MapboxDirections
+  - MapboxNavigation
+
+SPEC REPOS:
+  trunk:
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxCoreNavigation
+    - MapboxDirections
+    - MapboxMaps
+    - MapboxMobileEvents
+    - MapboxNavigation
+    - MapboxNavigationNative
+    - MapboxSpeech
+    - Polyline
+    - Solar-dev
+    - Turf
+
+SPEC CHECKSUMS:
+  MapboxCommon: 119f3759f7dc9457f0695848108ab323eb643cb4
+  MapboxCoreMaps: ca17f67baced23f8c952166ac6314c35bad3f66c
+  MapboxCoreNavigation: a4fa72bdb987dc9ab55615878299bf571f83a2b1
+  MapboxDirections: 3d468327d3e2ac52ae1be2176004976580cf6fd9
+  MapboxMaps: b7f29ec7c33f7dc6d2947c1148edce6db81db9a7
+  MapboxMobileEvents: d044b9edbe0ec7df60f6c2c9634fe9a7f449266b
+  MapboxNavigation: b80fc4d8317c38fe01aa2aff2d365d6d9f7ad62a
+  MapboxNavigationNative: 2667fa3783d7e5196def8d7cf9e6fdafd87b7ef9
+  MapboxSpeech: cd25ef99c3a3d2e0da72620ff558276ea5991a77
+  Polyline: 2a1f29f87f8d9b7de868940f4f76deb8c678a5b1
+  Solar-dev: 4612dc9878b9fed2667d23b327f1d4e54e16e8d0
+  Turf: aa2ede4298009639d10db36aba1a7ebaad072a5e
+
+PODFILE CHECKSUM: 23d352aea9df87794ec5c3bc3e2591d351e08387
 
 COCOAPODS: 1.15.2
