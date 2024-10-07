@@ -13,6 +13,7 @@
 		40401FEC2CB43CF1008D9646 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40401FEB2CB43CF1008D9646 /* Base */; };
 		40401FEE2CB43CF2008D9646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40401FED2CB43CF2008D9646 /* Assets.xcassets */; };
 		40401FF12CB43CF2008D9646 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40401FF02CB43CF2008D9646 /* Base */; };
+		BF5A9E1A134367CCC6EEA597 /* Pods_TestMapBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92148FC86C43A60862E74285 /* Pods_TestMapBox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		40401FED2CB43CF2008D9646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40401FF02CB43CF2008D9646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40401FF22CB43CF2008D9646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92148FC86C43A60862E74285 /* Pods_TestMapBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestMapBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0FE7865C18E853FA1F1144 /* Pods-TestMapBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMapBox.debug.xcconfig"; path = "Target Support Files/Pods-TestMapBox/Pods-TestMapBox.debug.xcconfig"; sourceTree = "<group>"; };
+		AFAA5FF118B195885AB818C5 /* Pods-TestMapBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMapBox.release.xcconfig"; path = "Target Support Files/Pods-TestMapBox/Pods-TestMapBox.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5A9E1A134367CCC6EEA597 /* Pods_TestMapBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				40401FE32CB43CF1008D9646 /* TestMapBox */,
 				40401FE22CB43CF1008D9646 /* Products */,
+				F3C5D7AC102DE921184DF476 /* Pods */,
+				AC6A1184211EFFA0D67C22B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = TestMapBox;
 			sourceTree = "<group>";
 		};
+		AC6A1184211EFFA0D67C22B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92148FC86C43A60862E74285 /* Pods_TestMapBox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3C5D7AC102DE921184DF476 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F0FE7865C18E853FA1F1144 /* Pods-TestMapBox.debug.xcconfig */,
+				AFAA5FF118B195885AB818C5 /* Pods-TestMapBox.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40401FF52CB43CF2008D9646 /* Build configuration list for PBXNativeTarget "TestMapBox" */;
 			buildPhases = (
+				3F904231E561505694A7539A /* [CP] Check Pods Manifest.lock */,
 				40401FDD2CB43CF1008D9646 /* Sources */,
 				40401FDE2CB43CF1008D9646 /* Frameworks */,
 				40401FDF2CB43CF1008D9646 /* Resources */,
@@ -132,6 +158,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F904231E561505694A7539A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestMapBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		40401FDD2CB43CF1008D9646 /* Sources */ = {
@@ -287,6 +338,7 @@
 		};
 		40401FF62CB43CF2008D9646 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0FE7865C18E853FA1F1144 /* Pods-TestMapBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +367,7 @@
 		};
 		40401FF72CB43CF2008D9646 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFAA5FF118B195885AB818C5 /* Pods-TestMapBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
