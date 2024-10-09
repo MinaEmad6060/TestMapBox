@@ -15,6 +15,7 @@ import MapboxNavigation
 class ViewController: UIViewController {
     var mapView: NavigationMapView!
 
+    // Driver location = -122.029804, 37.331978
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -32,24 +33,28 @@ class ViewController: UIViewController {
 
         // Calculate the route
         Directions.shared.calculate(routeOptions) { session, result in
-            switch result {
-            case .failure(let error):
-                print("Error calculating route: \(error)")
-            case .success(let response):
-                // Display the routes on the map
-                if let routes = response.routes {
-                    self.mapView.showcase(routes)
-                    print("Directions-MapBox-response \(result)")
-                    let navigationViewController = NavigationViewController(for: response, routeIndex: 0, routeOptions: routeOptions)
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 2){
-                        self.present(navigationViewController, animated: true)
+                    switch result {
+                    case .failure(let error):
+                        print("Error calculating route: \(error)")
+                    case .success(let response):
+                        // Display the routes on the map
+                        if let routes = response.routes, !routes.isEmpty {
+                            self.mapView.showcase(routes)
+                            print("Directions-MapBox-response \(result)")
+
+                            // Create IndexedRouteResponse
+                            let indexedRouteResponse = IndexedRouteResponse(routeResponse: response, routeIndex: 0)
+
+                            // Initialize NavigationViewController with IndexedRouteResponse
+                            let navigationViewController = NavigationViewController(for: indexedRouteResponse, navigationOptions: NavigationOptions())
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                                self.present(navigationViewController, animated: true)
+                            }
+                        } else {
+                            print("No routes found.")
+                        }
                     }
-                } else {
-                    print("No routes found.")
                 }
-            }
-        }
     }
 }
-
 
