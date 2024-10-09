@@ -13,6 +13,7 @@
 		40401FEC2CB43CF1008D9646 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40401FEB2CB43CF1008D9646 /* Base */; };
 		40401FEE2CB43CF2008D9646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40401FED2CB43CF2008D9646 /* Assets.xcassets */; };
 		40401FF12CB43CF2008D9646 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40401FF02CB43CF2008D9646 /* Base */; };
+		40B9AFDC2CB6EF93004607C3 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9AFDB2CB6EF93004607C3 /* ViewController2.swift */; };
 		BF5A9E1A134367CCC6EEA597 /* Pods_TestMapBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92148FC86C43A60862E74285 /* Pods_TestMapBox.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		40401FED2CB43CF2008D9646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40401FF02CB43CF2008D9646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40401FF22CB43CF2008D9646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40B9AFDB2CB6EF93004607C3 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		92148FC86C43A60862E74285 /* Pods_TestMapBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestMapBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0FE7865C18E853FA1F1144 /* Pods-TestMapBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMapBox.debug.xcconfig"; path = "Target Support Files/Pods-TestMapBox/Pods-TestMapBox.debug.xcconfig"; sourceTree = "<group>"; };
 		AFAA5FF118B195885AB818C5 /* Pods-TestMapBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMapBox.release.xcconfig"; path = "Target Support Files/Pods-TestMapBox/Pods-TestMapBox.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				40401FED2CB43CF2008D9646 /* Assets.xcassets */,
 				40401FEF2CB43CF2008D9646 /* LaunchScreen.storyboard */,
 				40401FF22CB43CF2008D9646 /* Info.plist */,
+				40B9AFDB2CB6EF93004607C3 /* ViewController2.swift */,
 			);
 			path = TestMapBox;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40401FE92CB43CF1008D9646 /* ViewController.swift in Sources */,
+				40B9AFDC2CB6EF93004607C3 /* ViewController2.swift in Sources */,
 				40401FE52CB43CF1008D9646 /* AppDelegate.swift in Sources */,
 				40401FE72CB43CF1008D9646 /* SceneDelegate.swift in Sources */,
 			);
