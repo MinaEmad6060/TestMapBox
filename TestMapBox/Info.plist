@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>MBXAccessToken</key>
+	<string>pk.eyJ1Ijoic21hcnRsZWUiLCJhIjoiY20wczI5NjVsMGFmYTJrc2pzcWszcmVicCJ9.K0kdOBzKlZST5PCgH6thsg</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -21,21 +23,10 @@
 			</array>
 		</dict>
 	</dict>
-    
-    
-    <key>MBXAccessToken</key>
-    <string>pk.eyJ1Ijoic21hcnRsZWUiLCJhIjoiY20wczI5NjVsMGFmYTJrc2pzcWszcmVicCJ9.K0kdOBzKlZST5PCgH6thsg</string>
-   
-    
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>Your reason for using location</string>
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>Your reason for using location in the background</string>
-    <key>UIBackgroundModes</key>
-    <array>
-        <string>location</string>
-        <string>audio</string>
-    </array>
-    
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+		<string>audio</string>
+	</array>
 </dict>
 </plist>

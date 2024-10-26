@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400999842CBD721B00FB78CD /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400999832CBD721B00FB78CD /* TestViewController.swift */; };
 		40401FE52CB43CF1008D9646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40401FE42CB43CF1008D9646 /* AppDelegate.swift */; };
 		40401FE72CB43CF1008D9646 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40401FE62CB43CF1008D9646 /* SceneDelegate.swift */; };
 		40401FE92CB43CF1008D9646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40401FE82CB43CF1008D9646 /* ViewController.swift */; };
 		40401FEC2CB43CF1008D9646 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40401FEB2CB43CF1008D9646 /* Base */; };
 		40401FEE2CB43CF2008D9646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40401FED2CB43CF2008D9646 /* Assets.xcassets */; };
 		40401FF12CB43CF2008D9646 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40401FF02CB43CF2008D9646 /* Base */; };
+		405885822CC5CEBD001999A3 /* LangTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405885812CC5CEBD001999A3 /* LangTestViewController.swift */; };
+		405885852CC5D00D001999A3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 405885832CC5D00D001999A3 /* Localizable.strings */; };
+		4091738A2CCD7FC500EF5106 /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 409173892CCD7FC500EF5106 /* View1.xib */; };
+		4091738E2CCD7FE700EF5106 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4091738D2CCD7FE700EF5106 /* View1.swift */; };
+		409173902CCD7FF500EF5106 /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4091738F2CCD7FF500EF5106 /* View2.xib */; };
+		409173922CCD800000EF5106 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409173912CCD800000EF5106 /* View2.swift */; };
 		40B9AFDC2CB6EF93004607C3 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9AFDB2CB6EF93004607C3 /* ViewController2.swift */; };
 		BF5A9E1A134367CCC6EEA597 /* Pods_TestMapBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92148FC86C43A60862E74285 /* Pods_TestMapBox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		400999832CBD721B00FB78CD /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		40401FE12CB43CF1008D9646 /* TestMapBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMapBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40401FE42CB43CF1008D9646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40401FE62CB43CF1008D9646 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,13 @@
 		40401FED2CB43CF2008D9646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40401FF02CB43CF2008D9646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40401FF22CB43CF2008D9646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405885812CC5CEBD001999A3 /* LangTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangTestViewController.swift; sourceTree = "<group>"; };
+		405885842CC5D00D001999A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		405885882CC5D03D001999A3 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		409173892CCD7FC500EF5106 /* View1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
+		4091738D2CCD7FE700EF5106 /* View1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		4091738F2CCD7FF500EF5106 /* View2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View2.xib; sourceTree = "<group>"; };
+		409173912CCD800000EF5106 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
 		40B9AFDB2CB6EF93004607C3 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		92148FC86C43A60862E74285 /* Pods_TestMapBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestMapBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0FE7865C18E853FA1F1144 /* Pods-TestMapBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMapBox.debug.xcconfig"; path = "Target Support Files/Pods-TestMapBox/Pods-TestMapBox.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,6 +59,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		400717F72CCD77EE00286D71 /* language */ = {
+			isa = PBXGroup;
+			children = (
+				405885812CC5CEBD001999A3 /* LangTestViewController.swift */,
+			);
+			path = language;
+			sourceTree = "<group>";
+		};
+		400717F82CCD780800286D71 /* testMapBox */ = {
+			isa = PBXGroup;
+			children = (
+				40401FE82CB43CF1008D9646 /* ViewController.swift */,
+				40B9AFDB2CB6EF93004607C3 /* ViewController2.swift */,
+				400999832CBD721B00FB78CD /* TestViewController.swift */,
+			);
+			path = testMapBox;
+			sourceTree = "<group>";
+		};
 		40401FD82CB43CF0008D9646 = {
 			isa = PBXGroup;
 			children = (
@@ -65,16 +98,45 @@
 		40401FE32CB43CF1008D9646 /* TestMapBox */ = {
 			isa = PBXGroup;
 			children = (
+				400717F82CCD780800286D71 /* testMapBox */,
+				400717F72CCD77EE00286D71 /* language */,
+				409173882CCD786D00EF5106 /* testCombine */,
 				40401FE42CB43CF1008D9646 /* AppDelegate.swift */,
 				40401FE62CB43CF1008D9646 /* SceneDelegate.swift */,
-				40401FE82CB43CF1008D9646 /* ViewController.swift */,
-				40401FEA2CB43CF1008D9646 /* Main.storyboard */,
-				40401FED2CB43CF2008D9646 /* Assets.xcassets */,
 				40401FEF2CB43CF2008D9646 /* LaunchScreen.storyboard */,
+				40401FEA2CB43CF1008D9646 /* Main.storyboard */,
+				405885832CC5D00D001999A3 /* Localizable.strings */,
+				40401FED2CB43CF2008D9646 /* Assets.xcassets */,
 				40401FF22CB43CF2008D9646 /* Info.plist */,
-				40B9AFDB2CB6EF93004607C3 /* ViewController2.swift */,
 			);
 			path = TestMapBox;
+			sourceTree = "<group>";
+		};
+		409173882CCD786D00EF5106 /* testCombine */ = {
+			isa = PBXGroup;
+			children = (
+				4091738B2CCD7FCA00EF5106 /* view1 */,
+				4091738C2CCD7FD300EF5106 /* view2 */,
+			);
+			path = testCombine;
+			sourceTree = "<group>";
+		};
+		4091738B2CCD7FCA00EF5106 /* view1 */ = {
+			isa = PBXGroup;
+			children = (
+				4091738D2CCD7FE700EF5106 /* View1.swift */,
+				409173892CCD7FC500EF5106 /* View1.xib */,
+			);
+			path = view1;
+			sourceTree = "<group>";
+		};
+		4091738C2CCD7FD300EF5106 /* view2 */ = {
+			isa = PBXGroup;
+			children = (
+				409173912CCD800000EF5106 /* View2.swift */,
+				4091738F2CCD7FF500EF5106 /* View2.xib */,
+			);
+			path = view2;
 			sourceTree = "<group>";
 		};
 		AC6A1184211EFFA0D67C22B4 /* Frameworks */ = {
@@ -138,6 +200,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 40401FD82CB43CF0008D9646;
 			productRefGroup = 40401FE22CB43CF1008D9646 /* Products */;
@@ -154,9 +217,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4091738A2CCD7FC500EF5106 /* View1.xib in Resources */,
 				40401FEE2CB43CF2008D9646 /* Assets.xcassets in Resources */,
+				405885852CC5D00D001999A3 /* Localizable.strings in Resources */,
 				40401FF12CB43CF2008D9646 /* Base in Resources */,
 				40401FEC2CB43CF1008D9646 /* Base in Resources */,
+				409173902CCD7FF500EF5106 /* View2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,10 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405885822CC5CEBD001999A3 /* LangTestViewController.swift in Sources */,
+				400999842CBD721B00FB78CD /* TestViewController.swift in Sources */,
 				40401FE92CB43CF1008D9646 /* ViewController.swift in Sources */,
+				409173922CCD800000EF5106 /* View2.swift in Sources */,
 				40B9AFDC2CB6EF93004607C3 /* ViewController2.swift in Sources */,
 				40401FE52CB43CF1008D9646 /* AppDelegate.swift in Sources */,
 				40401FE72CB43CF1008D9646 /* SceneDelegate.swift in Sources */,
+				4091738E2CCD7FE700EF5106 /* View1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +305,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		405885832CC5D00D001999A3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405885842CC5D00D001999A3 /* en */,
+				405885882CC5D03D001999A3 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -243,6 +322,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -306,6 +386,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -369,9 +450,11 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestMapBox/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your reason for using location in the background";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your reason for using location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -399,9 +482,11 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestMapBox/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your reason for using location in the background";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your reason for using location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

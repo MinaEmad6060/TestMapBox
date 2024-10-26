@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "c5H-2R-fjr"; */
+"c5H-2R-fjr.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "eqi-ft-lqI"; */
+"eqi-ft-lqI.configuration.title" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eqi-ft-lqI"; */
+"eqi-ft-lqI.normalTitle" = "Button";

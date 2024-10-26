@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  TestMapBox
+
+  Created by Mina Emad on 21/10/2024.
+  
+*/
+"button_title" = "تغيير اللغة";
+"label_text" = "اللغة الحالية: العربية";
